@@ -70,9 +70,7 @@ Chaque switch MX a deux bornes. Le câblage est identique pour tous :
 | SW5 | D8 | GND |
  
 > Les résistances pull-up sont **internes** à l'ATmega32U4 (`INPUT_PULLUP`), aucune résistance externe n'est nécessaire.
- 
-
-
+ <br>
 ### Encodeur rotatif — broches d'interruption externe
  
 Les broches CLK et DT **doivent obligatoirement** être connectées à des broches d'interruption externe pour une lecture fiable.
