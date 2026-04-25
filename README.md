@@ -54,6 +54,38 @@ SD-Michka-5SW-1EN/
 | Appui | 🔇 Mute |
 
 ---
+ 
+## 🔌 Branchements
+ 
+### Switchs MX — broches digitales
+ 
+Chaque switch MX a deux bornes. Le câblage est identique pour tous :
+ 
+| Switch | Borne 1 | Borne 2 |
+|---|---|---|
+| SW1 | D4 | GND |
+| SW2 | D5 | GND |
+| SW3 | D6 | GND |
+| SW4 | D7 | GND |
+| SW5 | D8 | GND |
+ 
+> Les résistances pull-up sont **internes** à l'ATmega32U4 (`INPUT_PULLUP`), aucune résistance externe n'est nécessaire.
+ 
+---
+ 
+### Encodeur rotatif — broches d'interruption externe
+ 
+Les broches CLK et DT **doivent obligatoirement** être connectées à des broches d'interruption externe pour une lecture fiable.
+ 
+| Broche encodeur | Broche Pro Micro | Interruption |
+|---|---|---|
+| CLK | D0 | INT1 |
+| DT | D1 | INT0 |
+| SW (mute) | D9 | — (digital classique) |
+| VCC | 3.3V | — |
+| GND | GND | — |
+ 
+---
 
 ## Prérequis logiciels
 
