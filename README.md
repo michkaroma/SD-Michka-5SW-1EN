@@ -1,10 +1,10 @@
-# 🎛️ SD-Michka — DIY Stream Deck
+# SD-Michka-5SW-1EN — DIY Stream Deck
 
 Un stream deck fait maison basé sur un **Pro Micro (ATmega32U4)**, avec 5 switchs mécaniques MX et un encodeur rotatif, développé sous **PlatformIO**.
 
 ---
 
-## 📦 Contenu du dépôt
+## Contenu du dépôt
 
 ```
 SD-Michka-5SW-1EN/
@@ -22,7 +22,7 @@ SD-Michka-5SW-1EN/
 
 ---
 
-## 🔧 Matériel
+## Matériel
 
 | Composant | Quantité | Rôle |
 |---|---|---|
@@ -33,7 +33,7 @@ SD-Michka-5SW-1EN/
 
 ---
 
-## 🎮 Fonctionnalités
+## Fonctionnalités
 
 ### Switchs MX
 
@@ -54,14 +54,14 @@ SD-Michka-5SW-1EN/
 
 ---
 
-## 🖥️ Prérequis logiciels
+## Prérequis logiciels
 
 - [PlatformIO](https://platformio.org/) (VS Code ou CLI)
 - Bibliothèque **HID-Project** (NicoHood)
 
 ---
 
-## 🚀 Installation & Flash
+## Installation & Flash
 
 ```bash
 # Cloner le dépôt
@@ -74,7 +74,7 @@ pio run --target upload
 
 ---
 
-## 🖨️ Impression 3D
+## Impression 3D
 
 Les fichiers du boîtier se trouvent dans le dossier `3D/` :
 - **`.3mf`** → à ouvrir directement dans votre slicer (PrusaSlicer, Bambu Studio, Cura…)
