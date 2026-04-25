@@ -71,7 +71,6 @@ Chaque switch MX a deux bornes. Le câblage est identique pour tous :
  
 > Les résistances pull-up sont **internes** à l'ATmega32U4 (`INPUT_PULLUP`), aucune résistance externe n'est nécessaire.
  
----
  
 ### Encodeur rotatif — broches d'interruption externe
  
