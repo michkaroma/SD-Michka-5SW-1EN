@@ -79,10 +79,10 @@ Les broches CLK et DT **doivent obligatoirement** être connectées à des broch
  
 | Broche encodeur | Broche Pro Micro | Interruption |
 |---|---|---|
-| CLK | D0 | INT1 |
-| DT | D1 | INT0 |
+| CLK | D0 | INT2 |
+| DT | D1 | INT3 |
 | SW (mute) | D9 | — (digital classique) |
-| VCC | 3.3V | — |
+| VCC | VCC | — |
 | GND | GND | — |
  
 ---
