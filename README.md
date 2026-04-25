@@ -11,12 +11,13 @@ SD-Michka-5SW-1EN/
 ├── 3D/                     # Fichiers de conception du boîtier
 │   ├── Deck v2.3mf         # Fichier d'impression 3D (3MF)
 │   └── Deck v2.f3d         # Fichier source Fusion 360
+├── README.md
 └── StreamDeck/             # Projet PlatformIO
-    ├── include/            # Headers personnalisés
-    ├── lib/                # Bibliothèques locales
+    ├── include/
+    ├── lib/
     ├── src/
     │   └── main.cpp        # Code source principal
-    ├── test/               # Tests unitaires
+    ├── test/
     └── platformio.ini      # Configuration PlatformIO
 ```
 
@@ -65,10 +66,10 @@ SD-Michka-5SW-1EN/
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/<ton-username>/SD-Michka-5SW-1EN.git
-cd SD-Michka-5SW-1EN/StreamDeck
+git clone https://github.com/michkaroma/SD-Michka-5SW-1EN.git
 
 # Compiler et flasher via PlatformIO
+cd SD-Michka-5SW-1EN/StreamDeck
 pio run --target upload
 ```
 
@@ -82,6 +83,6 @@ Les fichiers du boîtier se trouvent dans le dossier `3D/` :
 
 ---
 
-## 📄 Licence
+## Licence
 
 Ce projet est open source. Libre à vous de le modifier et de l'adapter à vos besoins.
