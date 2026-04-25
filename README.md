@@ -55,7 +55,7 @@ SD-Michka-5SW-1EN/
 
 ---
  
-## 🔌 Branchements
+## Branchements
  
 ### Switchs MX — broches digitales
  
